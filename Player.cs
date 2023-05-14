@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 
 namespace C_EntityFrameworkPlayers
 {
+    [Table("players_table")]
     public class Player
+        
     {
         [Key]
         public int Id { get; set; }
